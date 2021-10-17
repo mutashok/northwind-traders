@@ -34,6 +34,7 @@
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.2.1" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.2.1" />
     <PackageReference Include="Amazon.CDK.AWS.CodeCommit" Version="1.128.0" />
+    <PackageReference Include="Amazon.CDK.AWS.ECR" Version="1.128.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -42,6 +43,7 @@
     <None Remove="$(SpaRoot)**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
     <None Remove="Amazon.CDK.AWS.CodeCommit" />
+    <None Remove="Amazon.CDK.AWS.ECR" />
   </ItemGroup>
 
   <ItemGroup>
